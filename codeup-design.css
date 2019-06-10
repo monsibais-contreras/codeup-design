@@ -40,12 +40,13 @@ img {
 }
 .circle {
     display: table-cell;
-    height: 120px;
-    width: 120px;
+    height: 115px;
+    width: 115px;
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 6px solid white;
+    font-size: 20px;
 }
 .dot-circle {
     display: inline-block;
@@ -66,7 +67,8 @@ img {
 }
 
 .selectedwork, .thelast {
-     padding-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 1em;
  }
 
 .project {
@@ -74,8 +76,13 @@ img {
 }
 
 .bubbles {
-    margin: 0 auto;
+    margin: 1em auto 1.5em auto;
     width: 600px;
+}
+
+.thelast {
+    padding-left: 1em;
+
 }
 
 #banner {
@@ -87,11 +94,6 @@ img {
     z-index: -1;
 }
 
-
-.twitter {
-    width: 40px;
-    height: 40px;
-}
 
 /*xs screen*/
 @media screen and (max-width: 575px) {
