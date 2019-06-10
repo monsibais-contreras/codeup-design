@@ -5,16 +5,23 @@
 p{
     font-family: 'Anton', sans-serif;
 }
-h1, h2 {
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-}
+
 body {
     background-color: #F0F0F0;
 }
+
 img{
     max-width: 100%;
     max-height:100%;
+}
+
+#banner {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    margin: 40px;
+    position: absolute;
+    z-index: -1;
 }
 
 .container {
@@ -31,7 +38,7 @@ img{
 }
 
 .nav-link {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Abel', sans-serif;
     color: black;
 }
 .logo {
@@ -64,24 +71,24 @@ img{
 }
 
 .selectedwork, .thelast {
-    padding-top: 3em;
-}
+     padding-top: 3em;
+ }
 
 .project {
     font-size: 16px;
 }
 
-/*.bubbles {*/
-/*    margin: 0 auto;*/
-/*    width: 600px;*/
-/*}*/
+.bubbles {
+    margin: 0 auto;
+    width: 600px;
+}
 
 /*xs screen*/
 @media screen and (max-width: 575px) {
-    .white {
-        background-color: white;
-        margin: 3em 0;
+    .codeup {
+        text-align: center;
     }
+
     .project {
         font-size: 16px;
     }
@@ -98,19 +105,34 @@ img{
     .bubbles {
         margin: 0 auto;
         width: 300px;
+        /*padding: 5px;*/
     }
 }
 
 /*sm screen*/
 @media screen and (min-width: 576px) {
-    .bubbles {
-         margin: 0 auto;
-         width: 600px;
-     }
+    .codeup {
+        text-align: center;
+    }
+
+    .services {
+        margin-left: 125px;
+    }
+    .blog {
+        margin-right: 125px;
+    }
+
+
 }
 
 /*med screen*/
 @media screen and (min-width:768px){
+    .codeup {
+        text-align: left;
+    }
+    .blog, .services {
+        margin: 0;
+    }
 }
 
 /*lg screen*/
@@ -118,16 +140,25 @@ img{
     body {
         padding: 10px;
     }
-    .bubbles {
+    .codeup {
+        text-align: left;
+    }
+    .logo {
         margin: 0 auto;
-        width: 600px;
+    }
+
+    .blog, .services {
+        margin: 0;
     }
 }
 
 /*XL screen*/
 @media screen and (min-width:1200px){
-    .bubbles {
-        margin: 0 auto;
-        width: 600px;
+    .codeup {
+        text-align: left;
     }
+    .blog, .services {
+        margin: 0;
+    }
+
 }
