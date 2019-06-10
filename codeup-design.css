@@ -71,9 +71,9 @@ img {
     padding-bottom: 1em;
  }
 
-.project {
-    font-size: 16px;
-}
+/*.project {*/
+/*    font-size: 16px;*/
+/*}*/
 
 .bubbles {
     margin: 1em auto 1.5em auto;
@@ -110,9 +110,9 @@ img {
     }
 
 
-    .project {
-        font-size: 16px;
-    }
+    /*.project {*/
+    /*    font-size: 85%;*/
+    /*}*/
     .dot-circle {
         display: inline-block;
         height: 18px;
@@ -160,7 +160,7 @@ img {
 /*lg screen*/
 @media screen and (min-width:992px) {
     .container {
-        width: 65%;
+        width: 75%;
     }
     .codeup {
         text-align: left;
